@@ -11,5 +11,13 @@ function ConfirmZapMensage(){
 
     document.getElementById("ConfirmName").textContent = GlobalName;
     document.getElementById("ConfirmMensage").textContent = GlobalMensage;
+    console.log(GlobalName, GlobalMensage,"global")
+}
 
+function SendZap(){
+    var phoneNumber = "5541997758995"
+
+    var linkZap = "https://wa.me/" + phoneNumber + "?text=Nome: " + GlobalName + " - " + GlobalMensage;
+
+    window.open(linkZap, "_blank")
 }
