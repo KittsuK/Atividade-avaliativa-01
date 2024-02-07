@@ -4,7 +4,7 @@ var GlobalMensage;
 function ConfirmZapMensage(){
     var name = document.getElementById("ct_name").value;
     var mensage = document.getElementById("ct_mensage").value;
-    console.log(name,mensage)
+    console.log(name,mensage,"variavel")
 
     GlobalName = name;
     GlobalMensage = mensage;
