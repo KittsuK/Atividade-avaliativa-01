@@ -92,16 +92,15 @@ a:hover{
     position: row;
     margin-left: 10px;
     background-color: aliceblue;
-    border: 5px solid black;
     margin-top: 25px;
     margin-bottom: 25px;
-    width: 50%;
+    width: 55%;
+    height: 50%;
     align-items: center;
     border-radius: 50px;
 }
 
 .profile_name{
-    border-bottom: 5px dotted black;
     background-color: #2e2e2e;
     display: flex;
     width: 100%;
