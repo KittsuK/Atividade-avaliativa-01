@@ -1,5 +1,6 @@
 var GlobalName;
 var GlobalMensage;
+const popup = document.querySelector(".popup-wrapper")
 
 function ConfirmZapMensage(){
     var name = document.getElementById("ct_name").value;
